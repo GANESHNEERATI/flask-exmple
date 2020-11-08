@@ -1,0 +1,10 @@
+<html>  
+<head>  
+    <title>profile</title>  
+</head>  
+<body>  
+    {{ response.headers.add('Cache-Control', 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0')  }}
+    <h3>Hi, {{name}}</h3>  
+    <a href="/logout">View Profile</a> 
+</body>  
+</html>  
